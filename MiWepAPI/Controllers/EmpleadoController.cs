@@ -14,6 +14,10 @@ namespace MiWepAPI.Controllers
         {
             _empleadoData = empleadoData;
         }
+        /// <summary>
+        ///  
+        /// </summary>
+        /// <returns></returns>
 
         [HttpGet]
         public async Task<IActionResult> Lista()
