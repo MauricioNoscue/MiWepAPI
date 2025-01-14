@@ -1,0 +1,6 @@
+@MiWepAPI_HostAddress = http://localhost:5263
+
+GET {{MiWepAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
